@@ -319,28 +319,27 @@ ul {
 	border-radius: 0px 0px 4px 4px;
 }
 
-.socials a::after {
-	content: "";
+.socials a {
+	display: block;
 	width: 44px;
 	height: 44px;
-	display: block;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.socials .instagram::after {
+.socials .instagram {
 	background-image: url(../images/instagram.svg);
 }
 
-.socials .twitter::after {
+.socials .twitter {
 	background-image: url(../images/twitter.svg);
 }
 
-.socials .facebook::after {
+.socials .facebook {
 	background-image: url(../images/facebook.svg);
 }
 
-.socials .linkedin::after {
+.socials .linkedin {
 	background-image: url(../images/linkedin.svg);
 }
 /* Permanent clients */
@@ -348,8 +347,7 @@ ul {
 	justify-content: space-between;
 }
 
-.client::before {
-	content: "";
+.client {
 	display: block;
 	width: 170px;
 	height: 90px;
@@ -359,27 +357,27 @@ ul {
 	background-position: center;
 }
 
-.client.one:before {
+.client.one {
 	background-image: url(../images/logo1.svg);
 }
 
-.client.two:before {
+.client.two {
 	background-image: url(../images/logo2.svg);
 }
 
-.client.three:before {
+.client.three {
 	background-image: url(../images/logo3.svg);
 }
 
-.client.four:before {
+.client.four {
 	background-image: url(../images/logo4.svg);
 }
 
-.client.five:before {
+.client.five {
 	background-image: url(../images/logo5.svg);
 }
 
-.client.six:before {
+.client.six {
 	background-image: url(../images/logo6.svg);
 }
 /* Footer */
@@ -444,12 +442,11 @@ ul {
 	justify-content: space-between;
 }
 
-.socials-footer a::before {
-	content: "";
+.socials-footer a {
 	display: block;
 	width: 44px;
 	height: 44px;
-	border-radius: 100%;
+	border-radius: 50%;
 	background-image: url(../images/instagram.svg);
 	background-repeat: no-repeat;
 	background-position: center;
