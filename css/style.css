@@ -218,32 +218,22 @@ ul {
 	line-height: 1.7;
 }
 
-.achievements::before {
-	content: "";
-	display: block;
+/* .achievements 
 	width: 270px;
 	height: 120px;
 	margin-bottom: 30px;
-	background-repeat: no-repeat;
-	background-position: center;
 
 	background-color: var(--secondary-background-color);
-}
+} */
 
-.achievements.icon-antenna::before {
-	background-image: url(../images/antenna.svg);
-}
+.achievements-icon {
+	width: 70px;
+	height: 70px;
+	padding: 25px 100px;
+	margin-bottom: 30px;
+	border-radius: 4px;
 
-.achievements.icon-clock::before {
-	background-image: url(../images/clock.svg);
-}
-
-.achievements.icon-diagram::before {
-	background-image: url(../images/diagram.svg);
-}
-
-.achievements.icon-astronaut::before {
-	background-image: url(../images/astronaut.svg);
+	background-color: var(--secondary-background-color);
 }
 
 /* Our works */
